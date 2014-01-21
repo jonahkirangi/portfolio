@@ -9,6 +9,8 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'minitest-rails'
+gem 'zurb-foundation'
+gem 'bower'
 
 group :doc do
   gem 'sdoc', require: false
@@ -17,4 +19,3 @@ end
 group :test do
   gem 'minitest-rails-capybara'
 end
-
