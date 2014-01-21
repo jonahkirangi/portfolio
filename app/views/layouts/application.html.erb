@@ -30,14 +30,14 @@
 
   <div class="row">
     <div class="three columns">
-      <h1><img src="http://placehold.it/400x100&text=Logo" /></h1>
+      <a href="."><h1><img src="http://placehold.it/400x100&text=Logo" /></h1></a>
     </div>
     <div class="nine columns">
       <ul class="nav-bar right">
-        <li><a href="#">Link 1</a></li>
+        <li><a href="posts">Posts</a></li>
         <li><a href="#">Link 2</a></li>
         <li><a href="#">Link 3</a></li>
-        <li><a href="#">Link 4</a></li>
+        <li><a href="#">Contact</a></li>
       </ul>
     </div>
   </div>
@@ -51,13 +51,16 @@
   <div class="row">
     <div class="twelve columns">
       <div id="slider">
-        <img src="http://placehold.it/1000x400&text=[img 1]" />
-        <img src="http://placehold.it/1000x400&text=[img 2]" />
-        <img src="http://placehold.it/1000x400&text=[img 3]" />
-        <img src="http://placehold.it/1000x400&text=[img 4]" />
+        <img src="http://i.imgur.com/YZMk2VE.jpg" />
+        <img src="http://i.imgur.com/uiFxn6D.jpg" />
+        <img src="http://i.imgur.com/wXxKA9V.jpg" />
+        <img src="http://i.imgur.com/pSynDDV.jpg" />
       </div>
 
       <hr />
+       <%= yield %>
+      <hr />
+
     </div>
   </div>
 
@@ -99,7 +102,7 @@
             <p>We'd love to hear from you, you attractive person you.</p>
           </div>
           <div class="three columns">
-            <a href="#" class="radius button right">Contact Us</a>
+            <a href="#" class="radius button right">Contact Me</a>
           </div>
         </div>
       </div>
@@ -119,10 +122,10 @@
         </div>
         <div class="six columns">
           <ul class="link-list right">
-            <li><a href="#">Link 1</a></li>
+            <li><a href="posts">Posts</a></li>
             <li><a href="#">Link 2</a></li>
             <li><a href="#">Link 3</a></li>
-            <li><a href="#">Link 4</a></li>
+            <li><a href="#">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -178,6 +181,7 @@
          $('#slider').orbit();
      });
   </script>
+
 
 </body>
 </html>
