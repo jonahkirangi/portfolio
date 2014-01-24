@@ -1,12 +1,13 @@
 require "test_helper"
 
-feature "CheckForZurb" do
-  scenario "the test is sound" do
-    #GIVEN a page, WHEN the user visits
+feature "Check For Zurb" do
+  scenario "visiting the index page" do
+    # GIVE a page, WHEN the user visits
     visit root_path
-    # page.source.must_include "foundation_and_overrides.css"
-    #THEN must have Zurb Foundation loaded
-    assert page.has_css? '.columns'
+
+    # THEN must have Zurb Foundation loaded
+    page.must_have_css(".columns")
+
     # save_and_open_page
   end
 end

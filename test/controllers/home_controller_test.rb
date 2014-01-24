@@ -1,7 +1,10 @@
 require "test_helper"
 
 describe HomeController do
-  # it "must be a real test" do
-  #   flunk "Need real tests"
-  # end
+  it "should get index" do
+    skip
+    get :index
+    assert_response :success
+  end
+
 end

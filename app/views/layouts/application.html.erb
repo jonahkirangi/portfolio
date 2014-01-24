@@ -33,11 +33,11 @@
           <li class="divider"></li>
           <li><%= link_to "Posts", posts_path %></li>
           <li class="divider"></li>
-          <li><%= link_to "Link" %></li>
+          <li><%= link_to "Projects", projects_path %></li>
           <li class="divider"></li>
           <li><%= link_to "Link" %></li>
           <li class="divider"></li>
-          <li><%= link_to "Link" %></li>
+          <li><%= link_to "Sign Up" %></li>
         </ul>
       </section>
     </nav>
@@ -53,5 +53,11 @@
 
 
     <%= javascript_include_tag "application" %>
+
+    <% flash.each do |key, value| %>
+        <div class="alert-box round <%= flash_class(key) %>">
+              <%= value %>
+        </div>
+  <% end %>
   </body>
 </html>
