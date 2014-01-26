@@ -10,7 +10,7 @@ feature "As the site owner, I want to edit a project so that I can correct typos
     click_on "Update Project"
 
     # THEN the changes should be saved and shown
-    page.text.must_include "Success"
+    page.text.must_include "successfully"
     page.text.must_include "Rad Portfolio"
     page.text.wont_include "Code Fellows Portfolio"
 
@@ -22,9 +22,10 @@ feature "As the site owner, I want to edit a project so that I can correct typos
 
     # WHEN I submit invalid changes
     fill_in "Name", :with => "Q"
+    fill_in "Technologies used", :with => ""
     click_on "Update Project"
 
-    # THEN the changes should not be saved, and I should get to try again
+    # THEN the changes should not be saved, and I should have to try again
     page.must_have_content "from being saved"
     page.must_have_content "Name is too short"
     page.must_have_content "Technologies used can't be blank"

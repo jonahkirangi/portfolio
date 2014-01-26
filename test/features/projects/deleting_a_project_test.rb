@@ -1,13 +1,17 @@
-require "test_helper"
+# require "test_helper"
 
-feature "As the site visitor, I want to delete a project" do
-  scenario "deleting a projects" do
-    # Given a couple of projects (loaded from fixtures)
+# feature "As the site visitor, I want to delete a project" do
+#   scenario "deleting a projects" do
 
-    # When I visit /projects
-    visit project_path
+#     # GIVEN an existing project
+#     name = projects(:portfolio).name
+#     visit projects_path
 
-    # Then I should see a list of projects
-    page.must_have_content projects(:portfolio).technologies_used
-  end
-end
+#     # WHEN I delete the project
+#     page.find("a[href='#{project_path(projects(:portfolio))}'][data-method='delete']").click
+
+#     # THEN the project should be deleted
+#     page.wont_have_content "Ruby, Rails, Javascript"
+
+#   end
+# end

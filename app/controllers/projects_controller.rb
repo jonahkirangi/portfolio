@@ -23,13 +23,13 @@ class ProjectsController < ApplicationController
   end
 
   def edit
-    #set_project
+    set_project
   end
 
   def update
     @project = Project.find(params[:id])
 
-    if @project.update_attributes(params[:project])
+    if @project.update_attributes(project_params)
       redirect_to @project, notice: 'Project was successfully updated.'
     else
       render :edit
