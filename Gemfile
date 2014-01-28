@@ -29,4 +29,5 @@ end
 group :test do
   gem "minitest-rails-capybara"
   gem "launchy"
+  gem 'simplecov', :require => false, :group => :test
 end

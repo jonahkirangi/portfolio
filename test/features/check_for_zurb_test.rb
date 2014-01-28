@@ -7,7 +7,5 @@ feature "Check For Zurb" do
 
     # THEN must have Zurb Foundation loaded
     page.must_have_css(".columns")
-
-    # save_and_open_page
   end
 end
