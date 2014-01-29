@@ -26,4 +26,8 @@
 
 <br>
 
-<%= link_to 'New Post', new_post_path, class: "button radius" %>
+  <% if current_user.present? %>
+    <%= link_to 'New Post', new_post_path, class: "button radius" %>
+  <% else %>
+<% end %>
+
