@@ -9,6 +9,14 @@
         null,
         null,
         1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        4,
+        null,
         null
       ],
       "/Users/jonahkirangi/Desktop/CodeFellows/portfolio/app/helpers/application_helper.rb": [
@@ -36,6 +44,11 @@
       "/Users/jonahkirangi/Desktop/CodeFellows/portfolio/app/models/post.rb": [
         1,
         1,
+        null,
+        1,
+        0,
+        0,
+        null,
         null
       ],
       "/Users/jonahkirangi/Desktop/CodeFellows/portfolio/app/models/project.rb": [
@@ -127,6 +140,7 @@
         null,
         null,
         1,
+        1,
         null
       ],
       "/Users/jonahkirangi/Desktop/CodeFellows/portfolio/app/policies/post_policy.rb": [
@@ -134,12 +148,30 @@
         1,
         null,
         1,
-        4,
-        4,
+        8,
+        8,
         null,
         null,
         1,
         4,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        2,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        2,
+        0,
+        0,
+        null,
         null,
         null
       ],
@@ -148,6 +180,6 @@
         null
       ]
     },
-    "timestamp": 1390957812
+    "timestamp": 1391040716
   }
 }

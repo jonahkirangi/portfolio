@@ -72,6 +72,5 @@ feature "Creating A Post" do
     # Then the published post should be shown
     page.text.must_include "Status: Published"
   end
-
 end
 

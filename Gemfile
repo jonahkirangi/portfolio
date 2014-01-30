@@ -12,6 +12,7 @@ gem 'minitest-rails'
 gem 'bower'
 gem 'devise'
 gem 'foundation-rails'
+gem "pundit"
 
 group :development do
   gem "sqlite3"
