@@ -4,4 +4,4 @@ An application created
 for [Code Fellows](https://www.codefellows.org/)
 to display my projects.
 
-http://i.imgur.com/qJfCHHX.png
+![Screenshot](http://i.imgur.com/qJfCHHX.png)
